@@ -1,0 +1,20 @@
+.hero-image {
+    border-radius: 100%;
+    width: 7.5rem;
+}
+
+.payment-btn {
+    width: 100%;
+}
+
+#payment-options {
+    padding-bottom: 176px;
+    width: 680px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    #payment-options {
+        width: 90%;
+    }
+}

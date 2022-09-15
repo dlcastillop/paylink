@@ -3,9 +3,11 @@ import React from "react";
 function Hero(props) {
   return (
     <section className="d-flex flex-column align-items-center mt-2 mb-1">
-      <img src={props.src} alt={props.alt} className="mb-1" />
-      <h1 className="mb-1">{props.name}</h1>
+      <img src={props.src} alt={props.alt} className="mb-1 hero-image shadow  my-4" />
+      <div className="pt-3">
+      <h3 className="mb-1">{props.name}</h3>
       <p className="text-center">{props.description}</p>
+      </div>
     </section>
   );
 }
