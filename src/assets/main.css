@@ -1,15 +1,25 @@
+/* --------------------hero----------------------- */
+
 .hero-image {
     border-radius: 100%;
     width: 7.5rem;
 }
 
+
+/* --------------------Payment options----------------------- */
+
 .payment-btn {
     width: 100%;
 }
 
+.payment-label{
+/* this padin is to compasate to center the text and compense the size of the left btns */
+    /* padding-left: 60px;  */
+}
+
 #payment-options {
     padding-bottom: 176px;
-    width: 680px;
+    width: 580px;
     margin: auto;
 }
 
