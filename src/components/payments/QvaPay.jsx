@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import qvapay from "../../images/crypto/qvapay.svg";
 
-function QvaPay(props) {
+export function QvaPay(props) {
   const copy = () => {
     let href = props.href;
     navigator.clipboard.writeText(href);
@@ -62,4 +62,4 @@ function QvaPay(props) {
   );
 }
 
-export default QvaPay;
+

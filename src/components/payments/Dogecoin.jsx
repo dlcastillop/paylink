@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import dogecoin from "../../images/crypto/doge.svg";
 
-function Dogecoin(props) {
+export function Dogecoin(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -67,4 +67,4 @@ function Dogecoin(props) {
   );
 }
 
-export default Dogecoin;
+

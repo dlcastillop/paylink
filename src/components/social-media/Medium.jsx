@@ -1,6 +1,6 @@
 import React from "react";
 
-function Medium(props) {
+export function Medium(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -17,4 +17,4 @@ function Medium(props) {
   );
 }
 
-export default Medium;
+

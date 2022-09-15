@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import tether from "../../images/crypto/usdt.svg";
 
-function Tether(props) {
+export function Tether(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -62,4 +62,4 @@ function Tether(props) {
   );
 }
 
-export default Tether;
+

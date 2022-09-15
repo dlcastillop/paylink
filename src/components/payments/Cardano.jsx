@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import cardano from "../../images/crypto/ada.svg";
 
-function Cardano(props) {
+export function Cardano(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -62,4 +62,4 @@ function Cardano(props) {
   );
 }
 
-export default Cardano;
+

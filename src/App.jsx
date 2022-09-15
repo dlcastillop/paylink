@@ -1,11 +1,12 @@
 import React from "react";
 import Hero from "./components/Hero";
-import Payment from "./components/payments/Payment";
+
+
 
 function App() {
   return (
     <>
-      <Hero src="" alt="" name="" description="" />
+      <Hero src="" alt="myProfile" name="Ernesto Cisnero" description="Engineer from “LA CUJAE” || Frontend Developer enthusiast || Long life Liverpool FC supporter || Curious about the universe and galaxies" />
 
       <section id="social-media" className="d-flex justify-content-center mb-5">
         {/* Social media components are placed here */}

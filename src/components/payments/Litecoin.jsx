@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import litecoin from "../../images/crypto/ltc.svg";
 
-function Litecoin(props) {
+export function Litecoin(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -67,4 +67,4 @@ function Litecoin(props) {
   );
 }
 
-export default Litecoin;
+

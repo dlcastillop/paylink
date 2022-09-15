@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import ethereum from "../../images/crypto/eth.svg";
 
-function Ethereum(props) {
+export function Ethereum(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -67,4 +67,3 @@ function Ethereum(props) {
   );
 }
 
-export default Ethereum;

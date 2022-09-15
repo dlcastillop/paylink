@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import tron from "../../images/crypto/trx.svg";
 
-function Tron(props) {
+export function Tron(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -61,4 +61,3 @@ function Tron(props) {
   );
 }
 
-export default Tron;

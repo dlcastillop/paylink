@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import binanceUSD from "../../images/crypto/busd.svg";
 
-function BinanceUSD(props) {
+export function BinanceUSD(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -67,4 +67,4 @@ function BinanceUSD(props) {
   );
 }
 
-export default BinanceUSD;
+

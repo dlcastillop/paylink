@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import paypal from "../../images/crypto/paypal.svg";
 
-function PayPal(props) {
+export function PayPal(props) {
   const copy = () => {
     let href = props.href;
     navigator.clipboard.writeText(href);

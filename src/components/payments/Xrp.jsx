@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import xrp from "../../images/crypto/xrp.svg";
 
-function Xrp(props) {
+export function Xrp(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -61,4 +61,3 @@ function Xrp(props) {
   );
 }
 
-export default Xrp;

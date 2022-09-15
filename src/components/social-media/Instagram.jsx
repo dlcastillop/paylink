@@ -1,6 +1,6 @@
 import React from "react";
 
-function Instagram(props) {
+export function Instagram(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -17,4 +17,4 @@ function Instagram(props) {
   );
 }
 
-export default Instagram;
+

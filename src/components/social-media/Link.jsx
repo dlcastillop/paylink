@@ -1,6 +1,6 @@
 import React from "react";
 
-function Link(props) {
+export function Link(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -18,4 +18,4 @@ function Link(props) {
   );
 }
 
-export default Link;
+

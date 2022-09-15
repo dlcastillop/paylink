@@ -1,6 +1,6 @@
 import React from "react";
 
-function TikTok(props) {
+export function TikTok(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -17,4 +17,4 @@ function TikTok(props) {
   );
 }
 
-export default TikTok;
+

@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import solana from "../../images/crypto/sol.svg";
 
-function Solana(props) {
+export function Solana(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -62,4 +62,4 @@ function Solana(props) {
   );
 }
 
-export default Solana;
+

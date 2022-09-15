@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import bitcoin from "../../images/crypto/btc.svg";
 
-function Bitcoin(props) {
+export function Bitcoin(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -62,4 +62,4 @@ function Bitcoin(props) {
   );
 }
 
-export default Bitcoin;
+

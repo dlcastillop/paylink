@@ -1,6 +1,6 @@
 import React from "react";
 
-function WhatsApp(props) {
+export function WhatsApp(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -17,4 +17,4 @@ function WhatsApp(props) {
   );
 }
 
-export default WhatsApp;
+

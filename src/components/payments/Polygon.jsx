@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 import polygon from "../../images/crypto/matic.svg";
 
-function Polygon(props) {
+export function Polygon(props) {
   const copy = () => {
     let address = props.address;
     navigator.clipboard.writeText(address);
@@ -62,4 +62,4 @@ function Polygon(props) {
   );
 }
 
-export default Polygon;
+

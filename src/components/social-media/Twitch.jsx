@@ -1,6 +1,6 @@
 import React from "react";
 
-function Twitch(props) {
+export function Twitch(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -18,4 +18,3 @@ function Twitch(props) {
   );
 }
 
-export default Twitch;

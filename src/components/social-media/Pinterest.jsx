@@ -1,6 +1,6 @@
 import React from "react";
 
-function Pinterest(props) {
+export function Pinterest(props) {
   return (
     <a href={props.href} target="_blank" className="ms-2 me-2">
       <svg
@@ -17,4 +17,3 @@ function Pinterest(props) {
   );
 }
 
-export default Pinterest;

@@ -1,7 +1,7 @@
 import React from "react";
 import { QRCodeSVG } from "qrcode.react";
 
-function Payment(props) {
+export function Payment(props) {
   const copy = () => {
     let value = props.value;
     navigator.clipboard.writeText(value);
@@ -88,4 +88,4 @@ function Payment(props) {
   );
 }
 
-export default Payment;
+
