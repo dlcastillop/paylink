@@ -8,12 +8,13 @@ function App() {
       <Hero src="" alt="" name="" description="" />
 
       <section id="social-media" className="d-flex justify-content-center mb-5">
-        <section id="social-media" className="...">
-          {/* Social media components are placed here */}
-        </section>
+        {/* Social media components are placed here */}
       </section>
 
-      <section id="payment-options" className="d-flex flex-column align-items-center pb-5">
+      <section
+        id="payment-options"
+        className="d-flex flex-column align-items-center pb-5"
+      >
         {/* Payment components are placed here */}
       </section>
     </>
