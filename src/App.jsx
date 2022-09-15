@@ -7,7 +7,6 @@ import Instagram from "./components/social-media/Instagram";
 import LinkedIn from "./components/social-media/LinkedIn";
 import Link from "./components/social-media/Link";
 import Twitter from "./components/social-media/Twitter";
-import Bitcoin from "./components/payments/Bitcoin";
 import Payment from "./components/payments/Payment";
 
 function App() {
@@ -26,8 +25,11 @@ function App() {
       </section>
 
       <section id="payment-options" className="d-flex flex-column align-items-center">
-        <Payment label="Bitcoin" type="bitcoin" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" />
-        <Payment label="Qvapay" type="qvapay" value="paquito" />
+        <Payment label="Bitcoin" type="bitcoin" img="https://cryptologos.cc/logos/bitcoin-btc-logo.svg" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" />
+        <Payment label="Etherium" type="eth" img="https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=023" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" />
+        <Payment label="UST-TRC20" type="hive" img="https://cryptologos.cc/logos/tether-usdt-logo.svg?v=023" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" />
+        <Payment label="Hive" type="hive" img="https://cryptologos.cc/logos/hive-blockchain-hive-logo.svg?v=023" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" />
+        <Payment label="Tarjeta CUP" type="bitcoin" img="https://www.svgrepo.com/download/42266/credit-card.svg" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" />
       </section>
     </>
   );
