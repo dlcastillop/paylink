@@ -9,7 +9,7 @@ function Payment(props) {
 
   return (
     <div className="w-100">
-      <div className="payment-btn rounded-pill shadow mb-3 px-2 py-1 d-flex justify-content-between align-items-center">
+      <div className="payment-btn rounded-pill shadow mb-4 px-2 py-1 d-flex justify-content-between align-items-center">
         <img src={props.img} width="45" height="45" alt="Bitcoin logo" />
         <div className="d-inline mx-2 payment-label">{props.label}</div>
         <div className="d-inline">
