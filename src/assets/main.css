@@ -10,18 +10,24 @@
 
 .payment-btn {
     width: 100%;
+    transition: all 0.2s ease;
 }
 
-.payment-label{
-/* this padin is to compasate to center the text and compense the size of the left btns */
-    /* padding-left: 60px;  */
+.payment-btn:hover {
+    transform: translate3d(0px, 0px, 0px) scale(1.015);
+}
+
+.payment-label {
+    padding-left: 25px; 
 }
 
 #payment-options {
-    padding-bottom: 176px;
     width: 580px;
     margin: auto;
+
 }
+
+
 
 @media (max-width: 768px) {
     #payment-options {
