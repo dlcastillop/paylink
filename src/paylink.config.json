@@ -7,16 +7,16 @@
   },
 
   "Social": [
-    { "label": "GitHub", "type": "github", "link": "yourlinkhere" },
-    { "label": "Link", "type": "link", "link": "yourlinkhere" },
-    { "label": "Twitter", "type": "twitter", "link": "" },
-    { "label": "LinkedIn", "type": "linkedin", "link": "yourlinkhere" },
+    { "label": "Link", "type": "link", "link": "https://danielcastillop.netlify.app" },
+    { "label": "GitHub", "type": "github", "link": "https://github.com/dlcastillop" },
+    { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/dlcastillop" },
+    { "label": "LinkedIn", "type": "linkedin", "link": "https://github.com/in/dlcastillop" },
     { "label": "Instagram", "type": "instagram", "link": "" },
     { "label": "Discord", "type": "discord", "link": "" },
     { "label": "Facebook", "type": "facebook", "link": "" },
     { "label": "Medium", "type": "medium", "link": "" },
     { "label": "Pinterest", "type": "pinterest", "link": "" },
-    { "label": "Snapchat", "type": "snapchat", "link": "yourlinkhere" },
+    { "label": "Snapchat", "type": "snapchat", "link": "" },
     { "label": "Telegram", "type": "telegram", "link": "" },
     { "label": "TikTok", "type": "tiktok", "link": "" },
     { "label": "Twitch", "type": "twitch", "link": "" },
@@ -29,13 +29,13 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "yourwalletadress",
+      "value": "bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle",
       "img": "./src/images/crypto/btc.svg"
     },
     {
       "id": "busd",
       "label": "BinanceUSD",
-      "value": "yourwalletadress",
+      "value": "",
       "img": "./src/images/crypto/busd.svg"
     },
     {
@@ -47,13 +47,13 @@
     {
       "id": "doge",
       "label": "DogeCoin",
-      "value": "yourwalletadress",
+      "value": "",
       "img": "./src/images/crypto/doge.svg"
     },
     {
       "id": "eth",
       "label": "Ethereum",
-      "value": "eth",
+      "value": "0x59C864f658caD68A19a97499755080c056079988",
       "img": "./src/images/crypto/eth.svg"
     },
     {
@@ -65,7 +65,7 @@
     {
       "id": "paypal",
       "label": "Paypal",
-      "value": "paypal",
+      "value": "",
       "img": "./src/images/crypto/paypal.svg"
     },
     {
@@ -77,7 +77,7 @@
     {
       "id": "qvapay",
       "label": "QvaPay",
-      "value": "",
+      "value": "https://qvapay.com/payme/dlcastillop",
       "img": "./src/images/crypto/qvapay.svg"
     },
     {
