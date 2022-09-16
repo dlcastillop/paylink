@@ -14,10 +14,10 @@ function Payment(props) {
         <div className="mx-2 flex-grow-1 payment-label">{props.label}</div>
         <div>
           <button className="btn payment-action-btn btn-sm mx-0" onClick={copy}>
-            <i class="bi bi-clipboard copy-icon payment-action-icon"></i>
+            <i class="bx bx-copy copy-icon payment-action-icon"></i>
           </button>
           <button className="btn payment-action-btn btn-sm mx-0" data-bs-toggle="modal" data-bs-target={"#" + props.id}>
-            <i class="bi bi-qr-code-scan copy-icon payment-action-icon"></i>
+            <i class="bx bx-qr copy-icon payment-action-icon"></i>
           </button>
         </div>
       </div>
@@ -29,10 +29,11 @@ function Payment(props) {
               <h5 className="modal-title" id="exampleModalLabel">
                 <img src={props.img} width="40" height="40" className="mx-2" alt={props.label + " logo"} /> {props.label}
               </h5>
-              <button type="button" className="btn-close mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
+              <i className='bx bx-x' data-bs-dismiss="modal" aria-label="Close"></i>
+              {/* <button type="button" className="btn-close mx-2" ></button> */}
             </div>
             <div className="modal-body d-flex justify-content-center py-4 pb-0">
-              <div className="qr-container p-2" >
+              <div className="qr-container p-2">
                 <QRCodeSVG value={props.value} size="200" />
               </div>
             </div>

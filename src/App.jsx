@@ -10,11 +10,11 @@ import qvapay from "./images/crypto/qvapay.svg";
 function App() {
   return (
     <>
-      <div class="swordfest-theme">
+      <div class="swordfest-dark-theme">
         <Hero src={imageHero} alt="Photo of Daniel Castillo" name="Daniel Castillo" description="Frontend web developer" />
 
         <section id="social-media" className="d-flex justify-content-center mb-5">
-            <SocialMedia type="link-45deg" label="Link" href="https://danielcastillop.netlify.app" />
+            <SocialMedia type="link" label="Link" href="https://danielcastillop.netlify.app" />
             <SocialMedia type="github" label="GitHub" href="https://github.com/dlcastillop" />
             <SocialMedia type="twitter" label="Twitter" href="https://twitter.com/dlcastillop" />
             <SocialMedia type="linkedin" label="LinkedIn" href="https://linkedin.com/in/dlcastillop" />
