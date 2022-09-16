@@ -29,8 +29,7 @@ function Payment(props) {
               <h5 className="modal-title" id="exampleModalLabel">
                 <img src={props.img} width="40" height="40" className="mx-2" alt={props.label + " logo"} /> {props.label}
               </h5>
-              <i className='bx bx-x' data-bs-dismiss="modal" aria-label="Close"></i>
-              {/* <button type="button" className="btn-close mx-2" ></button> */}
+              <i className='bx bx-x close-modal-icon' data-bs-dismiss="modal" aria-label="Close"></i>
             </div>
             <div className="modal-body d-flex justify-content-center py-4 pb-0">
               <div className="qr-container p-2">
