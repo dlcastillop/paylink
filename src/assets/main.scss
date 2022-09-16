@@ -1,10 +1,11 @@
+@use 'themes/minimalist.theme';
+
 /* --------------------hero----------------------- */
 
 .hero-image {
     border-radius: 100%;
     width: 7.5rem;
 }
-
 
 /* --------------------Payment options----------------------- */
 
@@ -17,17 +18,10 @@
     transform: translate3d(0px, 0px, 0px) scale(1.015);
 }
 
-.payment-label {
-    padding-left: 25px; 
-}
-
 #payment-options {
     width: 580px;
     margin: auto;
-
 }
-
-
 
 @media (max-width: 768px) {
     #payment-options {
