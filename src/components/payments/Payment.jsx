@@ -14,10 +14,10 @@ function Payment(props) {
         <div className="mx-2 flex-grow-1 payment-label">{props.label}</div>
         <div>
           <button className="btn payment-action-btn btn-sm mx-0" onClick={copy}>
-            <i class="bx bx-copy copy-icon payment-action-icon"></i>
+            <i className="bx bx-copy copy-icon payment-action-icon"></i>
           </button>
           <button className="btn payment-action-btn btn-sm mx-0" data-bs-toggle="modal" data-bs-target={"#" + props.id}>
-            <i class="bx bx-qr copy-icon payment-action-icon"></i>
+            <i className="bx bx-qr copy-icon payment-action-icon"></i>
           </button>
         </div>
       </div>
@@ -37,7 +37,7 @@ function Payment(props) {
               </div>
             </div>
             <button type="button" className="btn btn-primary mx-5 my-5 mt-5" aria-label="Close" onClick={copy}>
-              <i class="bi bi-share-fill mx-3"></i>
+             <i className='bx bxs-share-alt mx-2'></i>
               Share
             </button>
           </div>

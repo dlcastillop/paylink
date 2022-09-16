@@ -1,4 +1,5 @@
 @use "themes/minimalist.theme";
+@use "themes/minimalist-dark.theme";
 @use "themes/swordfest.theme";
 @use "themes/swordfest-dark.theme";
 
@@ -21,7 +22,7 @@
 }
 
 #payment-options {
-  width: 580px;
+  width: 450px;
   margin: auto;
 }
 
@@ -37,4 +38,15 @@
   .modal-dialog {
    width: 350px;
   }
+}
+
+.close-modal-icon{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.qr-container {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
 }
