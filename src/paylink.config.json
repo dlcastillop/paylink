@@ -1,0 +1,108 @@
+{
+  "properties": {
+    "name": "Daniel Castillo",
+    "description": "Frontend web developer",
+    "alt": "Photo of Daniel Castillo",
+    "hero": "./src/images/daniel-castillo.png"
+  },
+
+  "Social": [
+    { "label": "GitHub", "type": "github", "link": "yourlinkhere" },
+    { "label": "Link", "type": "link-45deg", "link": "yourlinkhere" },
+    { "label": "Twitter", "type": "twitter", "link": "" },
+    { "label": "LinkedIn", "type": "linkedin", "link": "yourlinkhere" },
+    { "label": "Instagram", "type": "instagram", "link": "" },
+    { "label": "Discord", "type": "discord", "link": "" },
+    { "label": "Facebook", "type": "facebook", "link": "" },
+    { "label": "Medium", "type": "medium", "link": "" },
+    { "label": "Pinterest", "type": "pinterest", "link": "" },
+    { "label": "Snapchat", "type": "snapchat", "link": "yourlinkhere" },
+    { "label": "Telegram", "type": "telegram", "link": "" },
+    { "label": "TikTok", "type": "tiktok", "link": "" },
+    { "label": "Twitch", "type": "twitch", "link": "" },
+    { "label": "Vimeo", "type": "vimeo", "link": "" },
+    { "label": "WhatsApp", "type": "whatsapp", "link": "" },
+    { "label": "YouTube", "type": "youtube", "link": "" }
+  ],
+
+  "Payments": [
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "yourwalletadress",
+      "img": "./src/images/crypto/btc.svg"
+    },
+    {
+      "id": "busd",
+      "label": "BinanceUSD",
+      "value": "",
+      "img": "./src/images/crypto/busd.svg"
+    },
+    {
+      "id": "matic",
+      "label": "Matic",
+      "value": "",
+      "img": "./src/images/crypto/matic.svg"
+    },
+    {
+      "id": "doge",
+      "label": "DogeCoin",
+      "value": "",
+      "img": "./src/images/crypto/doge.svg"
+    },
+    {
+      "id": "eth",
+      "label": "Ethereum",
+      "value": "",
+      "img": "./src/images/crypto/eth.svg"
+    },
+    {
+      "id": "ltc",
+      "label": "Litecoin",
+      "value": "",
+      "img": "./src/images/crypto/ltc.svg"
+    },
+    {
+      "id": "paypal",
+      "label": "Paypal",
+      "value": "",
+      "img": "./src/images/crypto/paypal.svg"
+    },
+    {
+      "id": "usdt",
+      "label": "USDT",
+      "value": "",
+      "img": "./src/images/crypto/usdt.svg"
+    },
+    {
+      "id": "qvapay",
+      "label": "QvaPay",
+      "value": "",
+      "img": "./src/images/crypto/qvapay.svg"
+    },
+    {
+      "id": "sol",
+      "label": "Solana",
+      "value": "",
+      "img": "./src/images/crypto/sol.svg"
+    },
+    {
+      "id": "ada",
+      "label": "ADA",
+      "value": "",
+      "img": "./src/images/crypto/ada.svg"
+    },
+    {
+      "id": "trx",
+      "label": "Tron",
+      "value": "",
+      "img": "./src/images/crypto/trx.svg"
+    },
+    {
+      "id": "xrp",
+      "label": "XRP",
+      "value": "",
+      "img": "./src/images/crypto/xrp.svg"
+    }
+  ]
+}
