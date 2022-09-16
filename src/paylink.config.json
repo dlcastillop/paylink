@@ -1,7 +1,9 @@
 {
+  "theme": "minimalist-dark-theme",
+
   "properties": {
     "name": "Daniel Castillo",
-    "description": "Frontend web developer",
+    "description": "Frontend web developer and tireless creator",
     "alt": "Photo of Daniel Castillo",
     "hero": "./src/images/daniel-castillo.png"
   },
@@ -10,8 +12,8 @@
     { "label": "Link", "type": "link", "link": "https://danielcastillop.netlify.app" },
     { "label": "GitHub", "type": "github", "link": "https://github.com/dlcastillop" },
     { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/dlcastillop" },
-    { "label": "LinkedIn", "type": "linkedin", "link": "https://github.com/in/dlcastillop" },
-    { "label": "Instagram", "type": "instagram", "link": "" },
+    { "label": "LinkedIn", "type": "linkedin", "link": "https://linkedin.com/in/dlcastillop" },
+    { "label": "Instagram", "type": "instagram", "link": "https://instagram.com/in/dlcastillop" },
     { "label": "Discord", "type": "discord", "link": "" },
     { "label": "Facebook", "type": "facebook", "link": "" },
     { "label": "Medium", "type": "medium", "link": "" },
