@@ -46,7 +46,7 @@ function App() {
                   id={i.id}
                   label={i.label}
                   img={i.img}
-                  value={i}
+                  value={i.value}
                   key={i.id}
                 ></Payment>
               )
