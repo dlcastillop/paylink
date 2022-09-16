@@ -8,7 +8,7 @@
 
   "Social": [
     { "label": "GitHub", "type": "github", "link": "yourlinkhere" },
-    { "label": "Link", "type": "link-45deg", "link": "yourlinkhere" },
+    { "label": "Link", "type": "link", "link": "yourlinkhere" },
     { "label": "Twitter", "type": "twitter", "link": "" },
     { "label": "LinkedIn", "type": "linkedin", "link": "yourlinkhere" },
     { "label": "Instagram", "type": "instagram", "link": "" },
@@ -35,7 +35,7 @@
     {
       "id": "busd",
       "label": "BinanceUSD",
-      "value": "",
+      "value": "yourwalletadress",
       "img": "./src/images/crypto/busd.svg"
     },
     {
@@ -47,13 +47,13 @@
     {
       "id": "doge",
       "label": "DogeCoin",
-      "value": "",
+      "value": "yourwalletadress",
       "img": "./src/images/crypto/doge.svg"
     },
     {
       "id": "eth",
       "label": "Ethereum",
-      "value": "",
+      "value": "eth",
       "img": "./src/images/crypto/eth.svg"
     },
     {
@@ -65,7 +65,7 @@
     {
       "id": "paypal",
       "label": "Paypal",
-      "value": "",
+      "value": "paypal",
       "img": "./src/images/crypto/paypal.svg"
     },
     {
