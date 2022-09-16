@@ -10,7 +10,7 @@ import qvapay from "./images/crypto/qvapay.svg";
 function App() {
   return (
     <>
-      <div class="minimalist-theme">
+      <div class="swordfest-theme">
         <Hero src={imageHero} alt="Photo of Daniel Castillo" name="Daniel Castillo" description="Frontend web developer" />
 
         <section id="social-media" className="d-flex justify-content-center mb-5">
