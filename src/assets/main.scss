@@ -1,30 +1,38 @@
-@use 'themes/minimalist.theme';
+@use "themes/minimalist.theme";
 
 /* --------------------hero----------------------- */
 
 .hero-image {
-    border-radius: 100%;
-    width: 7.5rem;
+  border-radius: 100%;
+  width: 7.5rem;
 }
 
 /* --------------------Payment options----------------------- */
 
 .payment-btn {
-    width: 100%;
-    transition: all 0.2s ease;
+  width: 100%;
+  transition: all 0.2s ease;
 }
 
 .payment-btn:hover {
-    transform: translate3d(0px, 0px, 0px) scale(1.015);
+  transform: translate3d(0px, 0px, 0px) scale(1.015);
 }
 
 #payment-options {
-    width: 580px;
-    margin: auto;
+  width: 580px;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
-    #payment-options {
-        width: 90%;
-    }
+  #payment-options {
+    width: 90%;
+  }
+}
+
+/* --------------------Modal----------------------- */
+
+@media (min-width: 576px) {
+  .modal-dialog {
+   width: 350px;
+  }
 }

@@ -1,14 +1,39 @@
 .minimalist-theme {
   background-color: white;
 
-  .social-icon{
+  .social-icon {
     color: black;
-    font-size: 25px
+    font-size: 25px;
   }
 
   .payment-btn {
-
+    border-radius: var(--bs-border-radius-pill) !important;
+    padding: 0.35rem 0.7rem 0.35rem 0.7rem !important;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 
+  .payment-action-icon {
+    color: black;
+    font-size: 21px;
+  }
 
+  .payment-label {
+    text-align: center;
+    padding-left: 35px;
+  }
+
+  .payment-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .btn-primary {
+    border: none;
+    background-color: #1e1e1e;
+
+    &:hover {
+      background-color: black;
+    }
+  }
 }
