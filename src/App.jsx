@@ -8,7 +8,7 @@ import Config from "./paylink.config.json";
 function App() {
   return (
     <>
-      <div class="minimalist-theme">
+      <div class="minimalist-dark-theme">
         <Hero
           src={Config.properties.hero}
           alt={Config.properties.alt}
