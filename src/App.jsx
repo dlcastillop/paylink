@@ -3,29 +3,54 @@ import Hero from "./components/Hero";
 import SocialMedia from "./components/social-media/SocialMedia";
 import Payment from "./components/payments/Payment";
 import imageHero from "./images/daniel-castillo.png";
-import btc from "./images/crypto/btc.svg";
-import eth from "./images/crypto/eth.svg";
-import qvapay from "./images/crypto/qvapay.svg";
+import Config from "./paylink.config.json";
 
 function App() {
   return (
     <>
       <div class="minimalist-theme">
-        <Hero src={imageHero} alt="Photo of Daniel Castillo" name="Daniel Castillo" description="Frontend web developer" />
+        <Hero
+          src={Config.properties.hero}
+          alt={Config.properties.alt}
+          name={Config.properties.name}
+          description={Config.properties.description}
+        />
 
-        <section id="social-media" className="d-flex justify-content-center mb-5">
-            <SocialMedia type="link-45deg" label="Link" href="https://danielcastillop.netlify.app" />
-            <SocialMedia type="github" label="GitHub" href="https://github.com/dlcastillop" />
-            <SocialMedia type="twitter" label="Twitter" href="https://twitter.com/dlcastillop" />
-            <SocialMedia type="linkedin" label="LinkedIn" href="https://linkedin.com/in/dlcastillop" />
-            <SocialMedia type="instagram" label="Instagram" href="https://instagram.com/dlcastillop" />
+        <section
+          id="social-media"
+          className="d-flex justify-content-center mb-5"
+        >
+          {Config.Social.map(
+            (i) =>
+              i.link != "" && (
+                <SocialMedia
+                  label={i.label}
+                  type={i.type}
+                  href={i.link}
+                  key={i.label}
+                ></SocialMedia>
+              )
+          )}
         </section>
 
-        <section id="payment-options" className="d-flex flex-column align-items-center pb-5">
+        <section
+          id="payment-options"
+          className="d-flex flex-column align-items-center pb-5"
+        >
           {/* Payment components are placed here */}
-          <Payment img={btc} label="Bitcoin" value="bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle" id="btc" />
-          <Payment img={eth} label="Ethereum" value="0x59C864f658caD68A19a97499755080c056079988" id="eth" />
-          <Payment img={qvapay} label="QvaPay" value="https://qvapay.com/payme/dlcastillop" id="qvapay" />
+          {/* Payment components are placed here */}
+          {Config.Payments.map(
+            (i) =>
+              i.value != "" && (
+                <Payment
+                  id={i.id}
+                  label={i.label}
+                  img={i.img}
+                  value={i}
+                  key={i.id}
+                ></Payment>
+              )
+          )}
         </section>
       </div>
     </>
