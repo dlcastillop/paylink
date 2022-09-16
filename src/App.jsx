@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./components/Hero";
+import SocialMedia from "./components/social-media/SocialMedia";
 import Payment from "./components/payments/Payment";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <Hero src="" alt="" name="" description="" />
 
       <section id="social-media" className="d-flex justify-content-center mb-5">
-        {/* Social media components are placed here */}
+        {/* Payment components are placed here */}
       </section>
 
       <section
