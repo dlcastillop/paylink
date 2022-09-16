@@ -1,22 +1,24 @@
 {
+  "theme": "minimalist-dark-theme",
+
   "properties": {
     "name": "Daniel Castillo",
-    "description": "Frontend web developer",
+    "description": "Frontend web developer and tireless creator",
     "alt": "Photo of Daniel Castillo",
     "hero": "./src/images/daniel-castillo.png"
   },
 
   "Social": [
-    { "label": "GitHub", "type": "github", "link": "yourlinkhere" },
-    { "label": "Link", "type": "link-45deg", "link": "yourlinkhere" },
-    { "label": "Twitter", "type": "twitter", "link": "" },
-    { "label": "LinkedIn", "type": "linkedin", "link": "yourlinkhere" },
-    { "label": "Instagram", "type": "instagram", "link": "" },
+    { "label": "Link", "type": "link", "link": "https://danielcastillop.netlify.app" },
+    { "label": "GitHub", "type": "github", "link": "https://github.com/dlcastillop" },
+    { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/dlcastillop" },
+    { "label": "LinkedIn", "type": "linkedin", "link": "https://linkedin.com/in/dlcastillop" },
+    { "label": "Instagram", "type": "instagram", "link": "https://instagram.com/in/dlcastillop" },
     { "label": "Discord", "type": "discord", "link": "" },
     { "label": "Facebook", "type": "facebook", "link": "" },
     { "label": "Medium", "type": "medium", "link": "" },
     { "label": "Pinterest", "type": "pinterest", "link": "" },
-    { "label": "Snapchat", "type": "snapchat", "link": "yourlinkhere" },
+    { "label": "Snapchat", "type": "snapchat", "link": "" },
     { "label": "Telegram", "type": "telegram", "link": "" },
     { "label": "TikTok", "type": "tiktok", "link": "" },
     { "label": "Twitch", "type": "twitch", "link": "" },
@@ -29,7 +31,7 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "yourwalletadress",
+      "value": "bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle",
       "img": "./src/images/crypto/btc.svg"
     },
     {
@@ -53,7 +55,7 @@
     {
       "id": "eth",
       "label": "Ethereum",
-      "value": "",
+      "value": "0x59C864f658caD68A19a97499755080c056079988",
       "img": "./src/images/crypto/eth.svg"
     },
     {
@@ -77,7 +79,7 @@
     {
       "id": "qvapay",
       "label": "QvaPay",
-      "value": "",
+      "value": "https://qvapay.com/payme/dlcastillop",
       "img": "./src/images/crypto/qvapay.svg"
     },
     {

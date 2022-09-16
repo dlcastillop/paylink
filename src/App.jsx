@@ -2,13 +2,12 @@ import React from "react";
 import Hero from "./components/Hero";
 import SocialMedia from "./components/social-media/SocialMedia";
 import Payment from "./components/payments/Payment";
-import imageHero from "./images/daniel-castillo.png";
 import Config from "./paylink.config.json";
 
 function App() {
   return (
     <>
-      <div class="minimalist-theme">
+      <div class={Config.theme}>
         <Hero
           src={Config.properties.hero}
           alt={Config.properties.alt}
@@ -46,7 +45,7 @@ function App() {
                   id={i.id}
                   label={i.label}
                   img={i.img}
-                  value={i}
+                  value={i.value}
                   key={i.id}
                 ></Payment>
               )

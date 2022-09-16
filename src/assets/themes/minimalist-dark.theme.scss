@@ -1,9 +1,10 @@
-.minimalist-theme {
-  background-color: white;
+.minimalist-dark-theme {
+  background-color: #131212;
+  color: white;
   min-height: 100vh;
 
   .social-icon {
-    color: black;
+    color: white !important;
     font-size: 25px;
   }
 
@@ -12,16 +13,18 @@
     padding: 0.40rem 0.7rem 0.40rem 0.7rem !important;
     margin-bottom: 1.5rem !important;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background-color: #212121;
   }
 
   .payment-action-icon {
-    color: black;
+    color: white;
     font-size: 21px;
   }
 
   .payment-label {
     text-align: center;
     padding-left: 35px;
+    color: white;
   }
 
   .payment-img {
@@ -29,12 +32,29 @@
     height: 40px;
   }
 
+  .payment-action-btn {
+    border-radius: 6px;
+  }
+
+  .payment-action-btn:hover {
+    background: #212121;
+  }
+
+  .payment-action-btn:active {
+    background: #212121;
+    border: 1px solid #212121;
+  }
+
   .btn-primary {
     border: none;
     background-color: #1e1e1e;
 
     &:hover {
-      background-color: black;
+      background-color: #2b2b2b;
     }
+  }
+
+  .modal-content {
+    background-color: #131212;
   }
 }
