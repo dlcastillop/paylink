@@ -4,6 +4,8 @@ import SocialMedia from "./components/social-media/SocialMedia";
 import Payment from "./components/payments/Payment";
 import Config from "./paylink.config.json";
 
+document.title = "PayLink | Pay or donate to " + Config.properties.name;
+
 function App() {
   return (
     <>
