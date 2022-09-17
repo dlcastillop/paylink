@@ -1,5 +1,5 @@
 {
-  "theme": "minimalist-theme",
+  "theme": "minimalist-dark-theme",
 
   "properties": {
     "name": "Daniel Castillo",
@@ -43,13 +43,13 @@
     {
       "id": "matic",
       "label": "Matic",
-      "value": "s",
+      "value": "",
       "img": "/images/crypto/matic.svg"
     },
     {
       "id": "doge",
       "label": "DogeCoin",
-      "value": "s",
+      "value": "",
       "img": "/images/crypto/doge.svg"
     },
     {

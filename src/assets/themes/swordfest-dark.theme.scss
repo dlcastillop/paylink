@@ -78,4 +78,24 @@
   .modal-content {
     background-color: #212121;
   }
+
+  .toast {
+    padding: 10px 5px 10px 5px;
+    background-color: #212121 !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    border: 1px solid #212121;
+  }
+
+  .toast-header {
+    background-color: #212121 !important;
+    border: unset !important;
+    color: #DEDEDE;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    .btn-close {
+      filter: invert(1) grayscale(100%) brightness(200%);
+    }
+  }
 }

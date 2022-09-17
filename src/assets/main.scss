@@ -58,6 +58,7 @@
 
 .toast-container {
   position: fixed !important;
+  z-index: 1060 !important;
 }
 
 @media (max-width: 767px) {
