@@ -37,4 +37,16 @@
       background-color: black;
     }
   }
+
+  .toast {
+    padding: 5px 0px 5px 0px;
+    background-color: white !important;
+    border: unset !important;
+  }
+
+  .toast-header {
+    background-color: white !important;
+    border: unset !important;
+    color: rgb(36, 36, 36);
+  }
 }

@@ -36,13 +36,16 @@
 
 @media (min-width: 576px) {
   .modal-dialog {
-   width: 350px;
+    width: 350px;
   }
 }
 
-.close-modal-icon{
+.close-modal-icon {
   font-size: 24px;
   cursor: pointer;
+}
+.modal-header {
+  border: unset !important;
 }
 
 .qr-container {
@@ -52,15 +55,29 @@
 }
 
 /* responsive styling for the success Toast message */
-@media (max-width: 991.8px){
+
+.toast-container {
+  position: fixed !important;
+  z-index: 1060 !important;
+}
+
+@media (max-width: 767px) {
   .success-toast {
-    width: 25%;
-    
+    width: 100%;
+  }
+
+  .toast {
+    margin: 0px 25px 0px 25px;
+    width: auto;
   }
 }
-@media (max-width: 767.98px){
+
+@media (min-width: 768px) {
   .success-toast {
-    width: 50%;
-    
+    width: 300px;
+  }
+
+  .toast-container {
+    right: 10px !important;
   }
 }

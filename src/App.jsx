@@ -9,7 +9,7 @@ document.title = "PayLink | Pay or donate to " + Config.properties.name;
 function App() {
   return (
     <>
-      <div class={Config.theme}>
+      <div className={Config.theme}>
         <Hero
           src={Config.properties.hero}
           alt={Config.properties.alt}
