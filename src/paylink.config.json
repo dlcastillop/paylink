@@ -5,7 +5,7 @@
     "name": "Daniel Castillo",
     "description": "Frontend web developer and tireless creator",
     "alt": "Photo of Daniel Castillo",
-    "hero": "./images/daniel-castillo.png"
+    "hero": "../public/images/daniel-castillo.png"
   },
 
   "Social": [

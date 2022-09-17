@@ -19,7 +19,6 @@ function App() {
           id="social-media"
           className="d-flex justify-content-center mb-5"
         >
-        {/* Social media components are placed here */}
           {Config.Social.map(
             (i) =>
               i.link != "" && (
@@ -37,7 +36,6 @@ function App() {
           id="payment-options"
           className="d-flex flex-column align-items-center pb-5"
         >
-          {/* Payment components are placed here */}
           {Config.Payments.map(
             (i) =>
               i.value != "" && (
