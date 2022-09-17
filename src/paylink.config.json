@@ -5,7 +5,7 @@
     "name": "Daniel Castillo",
     "description": "Frontend web developer and tireless creator",
     "alt": "Photo of Daniel Castillo",
-    "hero": "../public/images/daniel-castillo.png"
+    "hero": "/images/daniel-castillo.png"
   },
 
   "Social": [
@@ -32,79 +32,79 @@
       "id": "btc",
       "label": "Bitcoin",
       "value": "bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle",
-      "img": "../public/images/crypto/btc.svg"
+      "img": "/images/crypto/btc.svg"
     },
     {
       "id": "busd",
       "label": "BinanceUSD",
       "value": "",
-      "img": "../public/images/crypto/busd.svg"
+      "img": "/images/crypto/busd.svg"
     },
     {
       "id": "matic",
       "label": "Matic",
       "value": "s",
-      "img": "../public/images/crypto/matic.svg"
+      "img": "/images/crypto/matic.svg"
     },
     {
       "id": "doge",
       "label": "DogeCoin",
       "value": "s",
-      "img": "../public/images/crypto/doge.svg"
+      "img": "/images/crypto/doge.svg"
     },
     {
       "id": "eth",
       "label": "Ethereum",
       "value": "0x59C864f658caD68A19a97499755080c056079988",
-      "img": "../public/images/crypto/eth.svg"
+      "img": "/images/crypto/eth.svg"
     },
     {
       "id": "ltc",
       "label": "Litecoin",
       "value": "",
-      "img": "../public/images/crypto/ltc.svg"
+      "img": "/images/crypto/ltc.svg"
     },
     {
       "id": "paypal",
       "label": "Paypal",
       "value": "",
-      "img": "../public/images/crypto/paypal.svg"
+      "img": "/images/crypto/paypal.svg"
     },
     {
       "id": "usdt",
       "label": "USDT",
       "value": "",
-      "img": "../public/images/crypto/usdt.svg"
+      "img": "/images/crypto/usdt.svg"
     },
     {
       "id": "qvapay",
       "label": "QvaPay",
       "value": "https://qvapay.com/payme/dlcastillop",
-      "img": "../public/images/crypto/qvapay.svg"
+      "img": "/images/crypto/qvapay.svg"
     },
     {
       "id": "sol",
       "label": "Solana",
       "value": "",
-      "img": "../public/images/crypto/sol.svg"
+      "img": "/images/crypto/sol.svg"
     },
     {
       "id": "ada",
       "label": "ADA",
       "value": "",
-      "img": "../public/images/crypto/ada.svg"
+      "img": "/images/crypto/ada.svg"
     },
     {
       "id": "trx",
       "label": "Tron",
       "value": "",
-      "img": "../public/images/crypto/trx.svg"
+      "img": "/images/crypto/trx.svg"
     },
     {
       "id": "xrp",
       "label": "XRP",
       "value": "",
-      "img": "../public/images/crypto/xrp.svg"
+      "img": "/images/crypto/xrp.svg"
     }
   ]
 }
