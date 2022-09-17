@@ -18,7 +18,7 @@ function Payment(props) {
     <>
       {/* The toast element requires a container for certain properties to be applied */}
       <ToastContainer position="bottom-end" className="success-toast mb-3">
-        <Toast animation={true} autohide={true} delay="300000" bg="dark" onClose={toggleShow} show={show} className="toast">
+        <Toast animation={true} autohide={true} delay="3000" bg="dark" onClose={toggleShow} show={show} className="toast">
           <Toast.Header closeButton={true} closeLabel="Close">
             <b className="me-auto">Text copied to clipboard</b>
           </Toast.Header>
