@@ -7,7 +7,7 @@ import Config from "./paylink.config.json";
 function App() {
   return (
     <>
-      <div class={Config.theme}>
+      <div className={Config.theme}>
         <Hero
           src={Config.properties.hero}
           alt={Config.properties.alt}

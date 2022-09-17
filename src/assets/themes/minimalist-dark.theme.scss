@@ -10,7 +10,7 @@
 
   .payment-btn {
     border-radius: var(--bs-border-radius-pill) !important;
-    padding: 0.40rem 0.7rem 0.40rem 0.7rem !important;
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
     margin-bottom: 1.5rem !important;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
     background-color: #212121;
@@ -56,5 +56,19 @@
 
   .modal-content {
     background-color: #131212;
+  }
+
+  .toast {
+    padding: 5px 0px 5px 0px;
+    background-color: #212121 !important;
+  }
+
+  .toast-header {
+    background-color: #212121 !important;
+    border: unset !important;
+    color: white;
+    .btn-close {
+      filter: invert(1) grayscale(100%) brightness(200%);
+    }
   }
 }

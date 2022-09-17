@@ -43,13 +43,13 @@
     {
       "id": "matic",
       "label": "Matic",
-      "value": "",
+      "value": "s",
       "img": "../public/images/crypto/matic.svg"
     },
     {
       "id": "doge",
       "label": "DogeCoin",
-      "value": "",
+      "value": "s",
       "img": "../public/images/crypto/doge.svg"
     },
     {
