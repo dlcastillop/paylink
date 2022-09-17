@@ -71,4 +71,8 @@
       filter: invert(1) grayscale(100%) brightness(200%);
     }
   }
+
+  .paylink-link:hover {
+    color: black !important;
+  }
 }

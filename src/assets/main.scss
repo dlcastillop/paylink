@@ -81,3 +81,11 @@
     right: 10px !important;
   }
 }
+
+.paylink-link{
+  cursor: pointer;
+  color: unset;
+  :hover{
+    color: unset;
+  }
+}
