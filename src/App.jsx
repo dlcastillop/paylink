@@ -52,7 +52,7 @@ function App() {
             className="paylink-link my-3 text-decoration-none"
           >
             <sub>
-              Power by <b>PayLink</b>
+              Powered by <b>PayLink</b>
             </sub>
           </a>
         </section>
