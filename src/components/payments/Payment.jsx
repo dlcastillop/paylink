@@ -1,14 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
+import Toast from 'react-bootstrap/Toast'
+import ToastContainer from 'react-bootstrap/ToastContainer'
 
 function Payment(props) {
+
+  const [ show, setShow ] = useState(false)
+
+  const toggleShow = () => setShow(!show)
+
   const copy = () => {
     let value = props.value;
     navigator.clipboard.writeText(value);
+    toggleShow() /* once the text is copied to the clipboard the toast is shown */
   };
 
+
   return (
-    <div className="w-100">
+    <>
+      {/* The toast element requires a container for certain properties to be applied */}
+      <ToastContainer position='bottom-center' className='success-toast mb-3' >
+        <Toast 
+        animation={true} 
+        autohide={true}
+        delay='3000'
+        bg='light'
+        onClose={toggleShow}
+        show={show}
+        >
+          <Toast.Header
+          closeButton={true}
+          closeLabel="Close" /* hidden label with accessibility purposes */
+          >
+            <strong>PayLink</strong>
+          </Toast.Header>
+          <Toast.Body className='text-success' >
+            <b>Texto copiado al portapapeles</b>
+          </Toast.Body>
+        </Toast>
+      </ToastContainer>
+
+      <div className="w-100">
       <div className="payment-btn d-flex justify-content-between align-items-center">
         <img src={props.img} alt={props.label + " logo"} className="payment-img" />
         <div className="mx-2 flex-grow-1 payment-label">{props.label}</div>
@@ -44,7 +76,9 @@ function Payment(props) {
         </div>
       </div>
     </div>
+
+    </>
   );
-}
+};
 
 export default Payment;
