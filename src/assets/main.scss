@@ -50,3 +50,17 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
 }
+
+/* responsive styling for the success Toast message */
+@media (max-width: 991.8px){
+  .success-toast {
+    width: 25%;
+    
+  }
+}
+@media (max-width: 767.98px){
+  .success-toast {
+    width: 50%;
+    
+  }
+}

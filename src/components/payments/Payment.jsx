@@ -19,7 +19,7 @@ function Payment(props) {
   return (
     <>
       {/* The toast element requires a container for certain properties to be applied */}
-      <ToastContainer position='bottom-end' className='mb-3 mx-3' >
+      <ToastContainer position='bottom-center' className='success-toast mb-3' >
         <Toast 
         animation={true} 
         autohide={true}
@@ -76,7 +76,7 @@ function Payment(props) {
         </div>
       </div>
     </div>
-      
+
     </>
   );
 };
