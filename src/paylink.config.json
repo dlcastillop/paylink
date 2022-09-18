@@ -13,7 +13,7 @@
     { "label": "GitHub", "type": "github", "link": "https://github.com/dlcastillop" },
     { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/dlcastillop" },
     { "label": "LinkedIn", "type": "linkedin", "link": "https://linkedin.com/in/dlcastillop" },
-    { "label": "Instagram", "type": "instagram", "link": "https://instagram.com/in/dlcastillop" },
+    { "label": "Instagram", "type": "instagram", "link": "https://instagram.com/dlcastillop" },
     { "label": "Discord", "type": "discord", "link": "" },
     { "label": "Facebook", "type": "facebook", "link": "" },
     { "label": "Medium", "type": "medium", "link": "" },
@@ -24,7 +24,8 @@
     { "label": "Twitch", "type": "twitch", "link": "" },
     { "label": "Vimeo", "type": "vimeo", "link": "" },
     { "label": "WhatsApp", "type": "whatsapp", "link": "" },
-    { "label": "YouTube", "type": "youtube", "link": "" }
+    { "label": "YouTube", "type": "youtube", "link": "" },
+    { "label": "Product Hunt", "type": "product-hunt", "link": "" }
   ],
 
   "Payments": [
