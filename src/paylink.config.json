@@ -32,79 +32,85 @@
       "id": "btc",
       "label": "Bitcoin",
       "value": "bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle",
-      "img": "./images/crypto/btc.svg"
+      "img": "./images/payments/btc.svg"
     },
     {
       "id": "busd",
       "label": "BinanceUSD",
       "value": "",
-      "img": "./images/crypto/busd.svg"
+      "img": "./images/payments/busd.svg"
     },
     {
       "id": "matic",
       "label": "Matic",
       "value": "",
-      "img": "./images/crypto/matic.svg"
+      "img": "./images/payments/matic.svg"
     },
     {
       "id": "doge",
       "label": "DogeCoin",
       "value": "",
-      "img": "./images/crypto/doge.svg"
+      "img": "./images/payments/doge.svg"
     },
     {
       "id": "eth",
       "label": "Ethereum",
       "value": "0x59C864f658caD68A19a97499755080c056079988",
-      "img": "./images/crypto/eth.svg"
+      "img": "./images/payments/eth.svg"
     },
     {
       "id": "ltc",
       "label": "Litecoin",
       "value": "",
-      "img": "./images/crypto/ltc.svg"
+      "img": "./images/payments/ltc.svg"
     },
     {
       "id": "paypal",
       "label": "Paypal",
       "value": "",
-      "img": "./images/crypto/paypal.svg"
+      "img": "./images/payments/paypal.svg"
     },
     {
       "id": "usdt",
       "label": "USDT",
       "value": "",
-      "img": "./images/crypto/usdt.svg"
+      "img": "./images/payments/usdt.svg"
     },
     {
       "id": "qvapay",
       "label": "QvaPay",
       "value": "https://qvapay.com/payme/dlcastillop",
-      "img": "./images/crypto/qvapay.svg"
+      "img": "./images/payments/qvapay.svg"
     },
     {
       "id": "sol",
       "label": "Solana",
       "value": "",
-      "img": "./images/crypto/sol.svg"
+      "img": "./images/payments/sol.svg"
     },
     {
       "id": "ada",
       "label": "ADA",
       "value": "",
-      "img": "./images/crypto/ada.svg"
+      "img": "./images/payments/ada.svg"
     },
     {
       "id": "trx",
       "label": "Tron",
       "value": "",
-      "img": "./images/crypto/trx.svg"
+      "img": "./images/payments/trx.svg"
     },
     {
       "id": "xrp",
       "label": "XRP",
       "value": "",
-      "img": "./images/crypto/xrp.svg"
+      "img": "./images/payments/xrp.svg"
+    },
+    {
+      "id": "card",
+      "label": "Card",
+      "value": "",
+      "img": "./images/payments/card.svg"
     }
   ]
 }
