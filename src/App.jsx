@@ -3,36 +3,9 @@ import Hero from "./components/Hero";
 import SocialMedia from "./components/SocialMedia";
 import Payment from "./components/Payment";
 import Config from "./paylink.config.json";
+import { metaTags } from "./js/main";
 
-// Set title tag
-document.title = "PayLink | Pay or donate to " + Config.properties.name;
-
-// Set meta tag (title)
-let meta = document.getElementsByTagName("meta")[1];
-meta.setAttribute(
-  "content",
-  "PayLink | Pay or donate to " + Config.properties.name
-);
-
-// Set meta tag (og:url and title)
-meta = document.getElementsByTagName("meta")[4];
-meta.setAttribute("og:url", window.location);
-
-meta = document.getElementsByTagName("meta")[5];
-meta.setAttribute(
-  "og:title",
-  "PayLink | Pay or donate to " + Config.properties.name
-);
-
-// Set meta tag (twitter:url and twitter:title)
-meta = document.getElementsByTagName("meta")[9];
-meta.setAttribute("twitter:url", window.location);
-
-meta = document.getElementsByTagName("meta")[10];
-meta.setAttribute(
-  "twitter:title",
-  "PayLink | Pay or donate to " + Config.properties.name
-);
+metaTags(Config.properties.name);
 
 const App = () => {
   return (
