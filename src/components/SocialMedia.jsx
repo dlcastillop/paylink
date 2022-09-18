@@ -1,7 +1,8 @@
 import React from "react";
 
-function SocialMedia(props) {
-  var icon = "social-icon bx bxl-" + props.type;
+const SocialMedia = (props) => {
+  let icon = "social-icon bx bxl-" + props.type;
+
   if (props.type == "link") {
     icon = "social-icon bx bx-" + props.type;
   }
@@ -11,6 +12,6 @@ function SocialMedia(props) {
       <i className={icon}></i>
     </a>
   );
-}
+};
 
 export default SocialMedia;

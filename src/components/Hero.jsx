@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero(props) {
+const Hero = (props) => {
   return (
     <section className="d-flex flex-column align-items-center pt-2 mb-1">
       <img src={props.src} alt={props.alt} className="mb-1 hero-image my-4" />
@@ -10,6 +10,6 @@ function Hero(props) {
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
