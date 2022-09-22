@@ -9,23 +9,25 @@
   },
 
   "Social": [
-    { "label": "Link", "type": "link", "link": "https://danielcastillop.netlify.app" },
-    { "label": "GitHub", "type": "github", "link": "https://github.com/dlcastillop" },
-    { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/dlcastillop" },
-    { "label": "LinkedIn", "type": "linkedin", "link": "https://linkedin.com/in/dlcastillop" },
-    { "label": "Instagram", "type": "instagram", "link": "https://instagram.com/dlcastillop" },
-    { "label": "Discord", "type": "discord", "link": "" },
-    { "label": "Facebook", "type": "facebook", "link": "" },
-    { "label": "Medium", "type": "medium", "link": "" },
-    { "label": "Pinterest", "type": "pinterest", "link": "" },
-    { "label": "Snapchat", "type": "snapchat", "link": "" },
-    { "label": "Telegram", "type": "telegram", "link": "" },
-    { "label": "TikTok", "type": "tiktok", "link": "" },
-    { "label": "Twitch", "type": "twitch", "link": "" },
-    { "label": "Vimeo", "type": "vimeo", "link": "" },
-    { "label": "WhatsApp", "type": "whatsapp", "link": "" },
-    { "label": "YouTube", "type": "youtube", "link": "" },
-    { "label": "Product Hunt", "type": "product-hunt", "link": "" }
+    { "label": "Link", "value": "bxl-link", "link": "https://danielcastillop.netlify.app" },
+    { "label": "Email", "value": "bx-envelope", "link": "mailto:your@mail.com" },
+    { "label": "GitHub", "value": "bxl-github", "link": "https://github.com/dlcastillop" },
+    { "label": "Twitter", "value": "bxl-twitter", "link": "https://twitter.com/dlcastillop" },
+    { "label": "LinkedIn", "value": "bxl-linkedin", "link": "https://linkedin.com/in/dlcastillop" },
+    { "label": "Instagram", "value": "bxl-instagram", "link": "https://instagram.com/dlcastillop" },
+    { "label": "Discord", "value": "bxl-discord", "link": "" },
+    { "label": "Facebook", "value": "bxl-facebook", "link": "" },
+    { "label": "Medium", "value": "bxl-medium", "link": "" },
+    { "label": "Pinterest", "value": "bxl-pinterest", "link": "" },
+    { "label": "Snapchat", "value": "bxl-snapchat", "link": "" },
+    { "label": "Telegram", "value": "bxl-telegram", "link": "" },
+    { "label": "TikTok", "value": "bxl-tiktok", "link": "" },
+    { "label": "Twitch", "value": "bxl-twitch", "link": "" },
+    { "label": "Vimeo", "value": "bxl-vimeo", "link": "" },
+    { "label": "WhatsApp", "value": "bxl-whatsapp", "link": "" },
+    { "label": "YouTube", "value": "bxl-youtube", "link": "" },
+    { "label": "Product Hunt", "value": "bxl-product-hunt", "link": "" }
+   
   ],
 
   "Payments": [

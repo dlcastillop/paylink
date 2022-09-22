@@ -27,7 +27,7 @@ const App = () => {
               i.link != "" && (
                 <SocialMedia
                   label={i.label}
-                  type={i.type}
+                  value={i.value}
                   href={i.link}
                   key={i.label}
                 ></SocialMedia>
