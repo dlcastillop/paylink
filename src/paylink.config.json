@@ -9,8 +9,8 @@
   },
 
   "Social": [
-    { "label": "Link", "value": "bxl-link", "link": "https://danielcastillop.netlify.app" },
-    { "label": "Email", "value": "bx-envelope", "link": "mailto:your@mail.com" },
+    { "label": "Email", "value": "bx-envelope", "link": "mailto:dlcastillo3015@gmail.com" },
+    { "label": "Link", "value": "bx-link", "link": "https://danielcastillop.netlify.app" },
     { "label": "GitHub", "value": "bxl-github", "link": "https://github.com/dlcastillop" },
     { "label": "Twitter", "value": "bxl-twitter", "link": "https://twitter.com/dlcastillop" },
     { "label": "LinkedIn", "value": "bxl-linkedin", "link": "https://linkedin.com/in/dlcastillop" },
@@ -27,7 +27,6 @@
     { "label": "WhatsApp", "value": "bxl-whatsapp", "link": "" },
     { "label": "YouTube", "value": "bxl-youtube", "link": "" },
     { "label": "Product Hunt", "value": "bxl-product-hunt", "link": "" }
-   
   ],
 
   "Payments": [
