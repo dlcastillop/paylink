@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
+import copy from "copy-to-clipboard";
 import Toast from "react-bootstrap/Toast";
 import ToastContainer from "react-bootstrap/ToastContainer";
 
@@ -8,9 +9,8 @@ const Payment = (props) => {
 
   const toggleShow = () => setShow(!show);
 
-  const copy = () => {
-    let value = props.value;
-    navigator.clipboard.writeText(value);
+  const copyEvent = () => {
+    copy(props.value);
     toggleShow(); /* once the text is copied to the clipboard the toast is shown */
   };
 
@@ -44,7 +44,7 @@ const Payment = (props) => {
           <div>
             <button
               className="btn payment-action-btn btn-sm mx-0"
-              onClick={copy}
+              onClick={copyEvent}
             >
               <i className="bx bx-copy copy-icon payment-action-icon"></i>
             </button>
@@ -92,7 +92,7 @@ const Payment = (props) => {
                 type="button"
                 className="btn btn-primary mx-5 my-5 mt-5"
                 aria-label="Close"
-                onClick={copy}
+                onClick={copyEvent}
               >
                 <i className="bx bx-copy mx-2"></i>
                 Copy
