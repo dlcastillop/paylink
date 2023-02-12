@@ -89,15 +89,6 @@ const App = () => {
               ></Payment>
             )
         )}
-        <a
-          href="https://github.com/dlcastillop/paylink"
-          target="_blank"
-          className="paylink-link my-3 text-decoration-none"
-        >
-          <sub>
-            Powered by <b>PayLink</b>
-          </sub>
-        </a>
       </section>
 
       <QRCode
@@ -106,6 +97,18 @@ const App = () => {
         value={paymentValue}
         showToast={(label) => showToast(label)}
       />
+
+      <footer className="text-center py-3">
+        <a
+          href="https://github.com/dlcastillop/paylink"
+          target="_blank"
+          className="paylink-link text-decoration-none"
+        >
+          <sub>
+            Powered by <b>PayLink</b>
+          </sub>
+        </a>
+      </footer>
     </div>
   );
 };
