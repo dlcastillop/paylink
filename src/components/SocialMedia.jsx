@@ -1,5 +1,3 @@
-import React from "react";
-
 const SocialMedia = (props) => {
   let icon = "social-icon bx " + props.value;
 

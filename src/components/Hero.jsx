@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = (props) => {
   return (
     <section className="d-flex flex-column align-items-center pt-2 mb-1">
