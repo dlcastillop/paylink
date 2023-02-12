@@ -44,6 +44,7 @@ const QRCode = ({ label, img, value, showToast }) => {
               className="btn btn-primary mx-5 my-5 mt-5"
               aria-label="Close"
               onClick={copyEvent}
+              title={"Copy " + label + " address"}
             >
               <i className="bx bx-copy mx-2"></i>
               Copy

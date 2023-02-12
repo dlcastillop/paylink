@@ -19,6 +19,7 @@ const Payment = ({ label, img, value, showToast, showQRCode }) => {
           <button
             className="btn payment-action-btn btn-sm mx-0"
             onClick={copyEvent}
+            title={"Copy " + label + " address"}
           >
             <i className="bx bx-copy copy-icon payment-action-icon"></i>
           </button>
@@ -27,6 +28,7 @@ const Payment = ({ label, img, value, showToast, showQRCode }) => {
             data-bs-toggle="modal"
             data-bs-target={"#modal"}
             onClick={showQR}
+            title={"Scan " + label + " address"}
           >
             <i className="bx bx-qr copy-icon payment-action-icon"></i>
           </button>

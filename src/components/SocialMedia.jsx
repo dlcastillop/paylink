@@ -1,8 +1,8 @@
-const SocialMedia = (props) => {
-  let icon = "social-icon bx " + props.value;
+const SocialMedia = ({ value, href, label }) => {
+  let icon = "social-icon bx " + value;
 
   return (
-    <a href={props.href} target="_blank" className="ms-2 me-2">
+    <a href={href} target="_blank" className="ms-2 me-2" title={label}>
       <i className={icon}></i>
     </a>
   );
