@@ -4,6 +4,7 @@
 @use "themes/swordfest-dark.theme";
 
 /* --------------------general----------------------- */
+
 .flex {
   display: flex;
 }
@@ -36,12 +37,20 @@
   margin-left: 0.5rem;
 }
 
+.me--auto {
+  margin-right: auto;
+}
+
 .me--2 {
   margin-right: 0.5rem;
 }
 
 .mb--1 {
   margin-bottom: 0.25rem;
+}
+
+.mb--3 {
+  margin-bottom: 1rem;
 }
 
 .my--4 {

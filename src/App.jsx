@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className={Config.theme}>
-      <ToastContainer position="bottom-end" className="success-toast mb-3">
+      <ToastContainer position="bottom-end" className="success-toast mb--3">
         <Toast
           animation={true}
           autohide={true}
@@ -42,7 +42,7 @@ const App = () => {
           className="toast"
         >
           <Toast.Header closeButton={true} closeLabel="Close">
-            <b className="me-auto">
+            <b className="me--auto">
               {paymentLabel} address copied to clipboard
             </b>
           </Toast.Header>
