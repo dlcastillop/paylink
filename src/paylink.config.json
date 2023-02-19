@@ -9,12 +9,36 @@
   },
 
   "Social": [
-    { "label": "Email", "value": "bx-envelope", "link": "mailto:dlcastillo3015@gmail.com" },
-    { "label": "Link", "value": "bx-link", "link": "https://dlcastillop.vercel.app" },
-    { "label": "GitHub", "value": "bxl-github", "link": "https://github.com/dlcastillop" },
-    { "label": "Twitter", "value": "bxl-twitter", "link": "https://twitter.com/dlcastillop" },
-    { "label": "LinkedIn", "value": "bxl-linkedin", "link": "https://linkedin.com/in/dlcastillop" },
-    { "label": "Instagram", "value": "bxl-instagram", "link": "https://instagram.com/dlcastillop" },
+    {
+      "label": "Email",
+      "value": "bx-envelope",
+      "link": "mailto:dlcastillo3015@gmail.com"
+    },
+    {
+      "label": "Link",
+      "value": "bx-link",
+      "link": "https://dlcastillop.vercel.app"
+    },
+    {
+      "label": "GitHub",
+      "value": "bxl-github",
+      "link": "https://github.com/dlcastillop"
+    },
+    {
+      "label": "Twitter",
+      "value": "bxl-twitter",
+      "link": "https://twitter.com/dlcastillop"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "bxl-linkedin",
+      "link": "https://linkedin.com/in/dlcastillop"
+    },
+    {
+      "label": "Instagram",
+      "value": "bxl-instagram",
+      "link": "https://instagram.com/dlcastillop"
+    },
     { "label": "Discord", "value": "bxl-discord", "link": "" },
     { "label": "Facebook", "value": "bxl-facebook", "link": "" },
     { "label": "Medium", "value": "bxl-medium", "link": "" },
