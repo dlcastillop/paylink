@@ -56,7 +56,7 @@ const App = () => {
         description={Config.properties.description}
       />
 
-      <section id="social-media" className="d-flex justify-content-center mb-5">
+      <section id="social-media" className="flex justify-content--center mb--5">
         {Config.Social.map(
           (i) =>
             i.link != "" && (
