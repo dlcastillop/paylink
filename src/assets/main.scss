@@ -4,10 +4,24 @@
 @use "themes/swordfest-dark.theme";
 
 /* --------------------general----------------------- */
-.flex-column-center {
+.flex {
   display: flex;
+}
+
+.flex-column {
   flex-direction: column;
+}
+
+.align-items--center {
   align-items: center;
+}
+
+.justify-content--between {
+  justify-content: space-between;
+}
+
+.flex-grow--1 {
+  flex-grow: 1;
 }
 
 .pt--2 {
@@ -27,8 +41,43 @@
   margin-bottom: 0.75rem;
 }
 
+.mx--0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mx--2 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .text--center {
   text-align: center;
+}
+
+.w--100 {
+  width: 100%;
+}
+
+.btn-d {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  background-color: transparent;
 }
 
 /* --------------------hero----------------------- */
