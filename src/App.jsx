@@ -72,7 +72,7 @@ const App = () => {
 
       <section
         id="payment-options"
-        className="d-flex flex-column align-items-center pb-4"
+        className="flex flex--column align-items--center pb--4"
       >
         {Config.Payments.map(
           (i) =>

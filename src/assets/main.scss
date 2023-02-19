@@ -9,7 +9,7 @@
   display: flex;
 }
 
-.flex-column {
+.flex--column {
   flex-direction: column;
 }
 
@@ -35,6 +35,10 @@
 
 .pt--3 {
   padding-top: 1rem;
+}
+
+.pb--4 {
+  padding-bottom: 1.5rem;
 }
 
 .ms--2 {
