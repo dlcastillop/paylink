@@ -98,11 +98,11 @@ const App = () => {
         showToast={(label) => showToast(label)}
       />
 
-      <footer className="text-center py-3">
+      <footer className="text--center py--3">
         <a
           href="https://github.com/dlcastillop/paylink"
           target="_blank"
-          className="paylink-link text-decoration-none"
+          className="paylink-link text-decoration--none"
         >
           <sub>
             Powered by <b>PayLink</b>
