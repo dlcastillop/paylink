@@ -4,9 +4,6 @@ import SocialMedia from "./components/SocialMedia";
 import Payment from "./components/Payment";
 import QRCode from "./components/QRCode";
 import Config from "./paylink.config.json";
-import { metaTags } from "./js/main";
-
-metaTags(Config.properties.name);
 
 const App = () => {
   const [paymentLabel, setPaymentLabel] = useState("");
