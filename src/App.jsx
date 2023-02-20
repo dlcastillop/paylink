@@ -63,12 +63,7 @@ const App = () => {
         )}
       </section>
 
-      <QRCode
-        label={paymentLabel}
-        img={paymentImg}
-        value={paymentValue}
-        showToast={(label) => showToast(label)}
-      />
+      <QRCode label={paymentLabel} img={paymentImg} value={paymentValue} />
 
       <footer className="text--center py--3">
         <a

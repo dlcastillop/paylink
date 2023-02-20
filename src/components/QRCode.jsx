@@ -1,10 +1,9 @@
 import { QRCodeSVG } from "qrcode.react";
 import copy from "copy-to-clipboard";
 
-const QRCode = ({ label, img, value, showToast }) => {
+const QRCode = ({ label, img, value }) => {
   const copyEvent = () => {
     copy(value);
-    showToast(label);
   };
 
   return (
