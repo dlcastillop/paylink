@@ -1,6 +1,6 @@
 import copy from "copy-to-clipboard";
 
-const Payment = ({ label, img, value, id, showToast, showQRCode }) => {
+const Payment = ({ label, img, value, id, showQRCode }) => {
   const copyEvent = () => {
     const copiedSpan = document.querySelector("#span" + id);
 
@@ -11,8 +11,8 @@ const Payment = ({ label, img, value, id, showToast, showQRCode }) => {
       copiedSpan.classList.remove("showTooltip");
       copiedSpan.classList.add("hideTooltip");
     }, 3000);
+
     copy(value);
-    showToast(label);
   };
 
   const showQR = () => {
@@ -30,7 +30,7 @@ const Payment = ({ label, img, value, id, showToast, showQRCode }) => {
             onClick={copyEvent}
             title={"Copy " + label + " address"}
           >
-            <span class="tooltiptext hideTooltip" id={"span" + id}>
+            <span className="tooltiptext hideTooltip" id={"span" + id}>
               Copied!
             </span>
             <i className="bx bx-copy copy-icon payment-action-icon"></i>

@@ -62,10 +62,6 @@
   margin-bottom: 0.25rem;
 }
 
-.mb--3 {
-  margin-bottom: 1rem;
-}
-
 .mb--5 {
   margin-bottom: 3rem;
 }
@@ -170,34 +166,6 @@
   border-radius: 10px;
 }
 
-/* responsive styling for the success Toast message */
-
-.toast-container {
-  position: fixed !important;
-  z-index: 1060 !important;
-}
-
-@media (max-width: 767px) {
-  .success-toast {
-    width: 100%;
-  }
-
-  .toast {
-    margin: 0px 25px 0px 25px;
-    width: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .success-toast {
-    width: 310px;
-  }
-
-  .toast-container {
-    right: 10px !important;
-  }
-}
-
 .paylink-link {
   cursor: pointer;
   color: unset;
@@ -225,11 +193,6 @@
   margin-left: -60px;
 }
 
-/*
-.tooltips:hover .tooltiptext {
-  display: block;
-}
-*/
 .hideTooltip {
   display: none;
 }

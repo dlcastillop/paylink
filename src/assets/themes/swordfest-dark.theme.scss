@@ -1,6 +1,6 @@
 .swordfest-dark-theme {
   background-color: #111111;
-  color: #DEDEDE !important;
+  color: #dedede !important;
   font-family: "Inter";
   min-height: 100vh;
 
@@ -16,7 +16,7 @@
   }
 
   .social-icon {
-    color: #DEDEDE;
+    color: #dedede;
     font-size: 25px;
   }
 
@@ -30,7 +30,7 @@
   }
 
   .payment-action-icon {
-    color: #DEDEDE;
+    color: #dedede;
     font-size: 18px;
     margin-top: 4px;
   }
@@ -40,7 +40,7 @@
   }
 
   .payment-action-btn:hover {
-    background: #1A1A1A;
+    background: #1a1a1a;
   }
 
   .payment-action-btn:active {
@@ -58,7 +58,7 @@
     font-size: 16px;
     line-height: 19px;
 
-    color: #DEDEDE;
+    color: #dedede;
   }
 
   .payment-img {
@@ -79,27 +79,7 @@
     background-color: #212121;
   }
 
-  .toast {
-    padding: 10px 5px 10px 5px;
-    background-color: #212121 !important;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-    border-radius: 14px;
-    border: 1px solid #212121;
-  }
-
-  .toast-header {
-    background-color: #212121 !important;
-    border: unset !important;
-    color: #DEDEDE;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    .btn-close {
-      filter: invert(1) grayscale(100%) brightness(200%);
-    }
-  }
-
   .paylink-link:hover {
-    color: #DEDEDE !important;
+    color: #dedede !important;
   }
 }
