@@ -82,6 +82,7 @@ const App = () => {
                 img={i.img}
                 value={i.value}
                 key={i.id}
+                id={i.id}
                 showToast={(label) => showToast(label)}
                 showQRCode={(label, img, value) =>
                   showQRCode(label, img, value)

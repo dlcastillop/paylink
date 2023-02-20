@@ -205,3 +205,35 @@
     color: unset;
   }
 }
+
+.tooltips {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltips .tooltiptext {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/*
+.tooltips:hover .tooltiptext {
+  display: block;
+}
+*/
+.hideTooltip {
+  display: none;
+}
+
+.showTooltip {
+  display: block;
+}
