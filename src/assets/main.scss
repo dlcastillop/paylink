@@ -180,13 +180,13 @@
 }
 
 .tooltips .tooltiptext {
-  background-color: black;
-  color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
   position: absolute;
   z-index: 1;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .tooltips .main-tooltip {

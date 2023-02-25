@@ -31,7 +31,7 @@ const Payment = ({ label, img, value, id, showQRCode }) => {
             title={"Copy " + label + " address"}
           >
             <span
-              className="tooltiptext hideTooltip main-tooltip"
+              className="tooltiptext hideTooltip main-tooltip tooltipcolor"
               id={"span" + id}
             >
               Copied!

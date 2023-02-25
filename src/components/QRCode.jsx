@@ -55,7 +55,7 @@ const QRCode = ({ label, img, value }) => {
               onClick={copyEvent}
               title={"Copy " + label + " address"}
             >
-              <span className="tooltiptext hideTooltip qr-tooltip" id="span-qr">
+              <span className="tooltiptext hideTooltip qr-tooltip tooltipcolor" id="span-qr">
                 Copied!
               </span>
               <i className="bx bx-copy mx-2"></i>
