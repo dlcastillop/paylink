@@ -177,7 +177,6 @@
 .tooltips {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .tooltips .tooltiptext {
@@ -188,9 +187,18 @@
   padding: 5px;
   position: absolute;
   z-index: 1;
+}
+
+.tooltips .main-tooltip {
   bottom: 30px;
   left: 50%;
   margin-left: -60px;
+}
+
+.tooltips .qr-tooltip {
+  bottom: 40px;
+  left: 50%;
+  margin-left: 100px;
 }
 
 .hideTooltip {

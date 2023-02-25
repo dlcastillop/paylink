@@ -3,6 +3,16 @@ import copy from "copy-to-clipboard";
 
 const QRCode = ({ label, img, value }) => {
   const copyEvent = () => {
+    const copiedQR = document.querySelector("#span-qr");
+
+    copiedQR.classList.remove("hideTooltip");
+    copiedQR.classList.add("showTooltip");
+
+    setTimeout(() => {
+      copiedQR.classList.remove("showTooltip");
+      copiedQR.classList.add("hideTooltip");
+    }, 3000);
+
     copy(value);
   };
 
@@ -40,11 +50,14 @@ const QRCode = ({ label, img, value }) => {
             </div>
             <button
               type="button"
-              className="btn btn-primary mx-5 my-5 mt-5"
+              className="btn btn-primary mx-5 my-5 mt-5 tooltips"
               aria-label="Close"
               onClick={copyEvent}
               title={"Copy " + label + " address"}
             >
+              <span className="tooltiptext hideTooltip qr-tooltip" id="span-qr">
+                Copied!
+              </span>
               <i className="bx bx-copy mx-2"></i>
               Copy
             </button>

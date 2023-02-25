@@ -30,7 +30,10 @@ const Payment = ({ label, img, value, id, showQRCode }) => {
             onClick={copyEvent}
             title={"Copy " + label + " address"}
           >
-            <span className="tooltiptext hideTooltip" id={"span" + id}>
+            <span
+              className="tooltiptext hideTooltip main-tooltip"
+              id={"span" + id}
+            >
               Copied!
             </span>
             <i className="bx bx-copy copy-icon payment-action-icon"></i>
