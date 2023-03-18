@@ -1,6 +1,6 @@
 import copy from "copy-to-clipboard";
 
-const Payment = ({ img, label, id, value }) => {
+const Payment = ({ img, label, value, setQrData }) => {
   const copyEvent = (e) => {
     const tooltip = e.currentTarget;
     tooltip.setAttribute("data-tip", "Copied!");
@@ -28,9 +28,14 @@ const Payment = ({ img, label, id, value }) => {
             <i className="bx bx-copy text-lg"></i>
           </button>
         </div>
-        <button className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus">
+
+        <label
+          htmlFor="modal-qr"
+          className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus"
+          onClick={() => setQrData({ img, label, value })}
+        >
           <i className="bx bx-qr text-lg"></i>
-        </button>
+        </label>
       </div>
     </div>
   );

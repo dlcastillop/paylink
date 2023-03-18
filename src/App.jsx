@@ -1,11 +1,17 @@
+import { useState } from "react";
 import Hero from "./components/Hero";
 import SocialMedia from "./components/SocialMedia";
 import Payment from "./components/Payment";
+import Modal from "./components/Modal";
 import Config from "./paylink.config.json";
 
 const App = () => {
+  const [qrData, setQrData] = useState({ img: "", label: "", value: "" });
+
   return (
     <div className="max-w-xl mx-auto items-center justify-center">
+      <Modal qrData={qrData} />
+
       <Hero
         src={Config.properties.hero}
         alt={Config.properties.alt}
@@ -29,8 +35,8 @@ const App = () => {
               <Payment
                 img={i.img}
                 label={i.label}
-                id={i.id}
                 value={i.value}
+                setQrData={(val) => setQrData(val)}
                 key={i.label}
               />
             )
