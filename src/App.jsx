@@ -36,6 +36,16 @@ const App = () => {
             )
         )}
       </section>
+
+      <footer className="my-6 text-center">
+        <a
+          href="https://github.com/dlcastillop/paylink"
+          target="_blank"
+          className="text-xs"
+        >
+          Powered by <span className="font-bold">PayLink</span>
+        </a>
+      </footer>
     </div>
   );
 };
