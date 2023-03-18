@@ -34,16 +34,18 @@ const Payment = ({ img, label, value, setQrData }) => {
           </button>
         </div>
 
-        <label
-          htmlFor="modal-qr"
-          className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus"
-          onClick={() => setQrData({ img, label, value })}
-          title="QR"
-          onMouseEnter={(e) => e.currentTarget.removeAttribute("title")}
-          onMouseLeave={(e) => e.currentTarget.setAttribute("title", "QR")}
-        >
-          <i className="bx bx-qr text-lg"></i>
-        </label>
+        <div className="tooltip tooltip-accent" data-tip="Scan">
+          <label
+            htmlFor="modal-qr"
+            className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus"
+            onClick={() => setQrData({ img, label, value })}
+            title="Scan"
+            onMouseEnter={(e) => e.currentTarget.removeAttribute("title")}
+            onMouseLeave={(e) => e.currentTarget.setAttribute("title", "Scan")}
+          >
+            <i className="bx bx-qr text-lg"></i>
+          </label>
+        </div>
       </div>
     </div>
   );
