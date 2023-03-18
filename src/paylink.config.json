@@ -46,7 +46,8 @@
     { "label": "Vimeo", "value": "bxl-vimeo", "link": "" },
     { "label": "WhatsApp", "value": "bxl-whatsapp", "link": "" },
     { "label": "YouTube", "value": "bxl-youtube", "link": "" },
-    { "label": "Product Hunt", "value": "bxl-product-hunt", "link": "" }
+    { "label": "Product Hunt", "value": "bxl-product-hunt", "link": "" },
+    { "label": "Newsletter", "value": "bx-mail-send", "link": "" }
   ],
 
   "Payments": [
