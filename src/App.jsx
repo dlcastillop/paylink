@@ -30,6 +30,9 @@ const App = () => {
   meta = document.querySelectorAll("meta")[11];
   meta.setAttribute("twitter:title", title);
 
+  // Set theme
+  document.body.setAttribute("data-theme", Config.theme);
+
   return (
     <div className="max-w-xl mx-auto items-center justify-center">
       <Modal qrData={qrData} />
