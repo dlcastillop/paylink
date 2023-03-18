@@ -48,7 +48,7 @@ const App = () => {
         )}
       </section>
 
-      <footer className="my-6 text-center">
+      <footer className="py-6 text-center">
         <a
           href="https://github.com/dlcastillop/paylink"
           target="_blank"
