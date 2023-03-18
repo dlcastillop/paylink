@@ -17,22 +17,24 @@ const App = () => {
         {Config.Social.map(
           (i) =>
             i.link != "" && (
-              <SocialMedia
-                value={i.value}
-                href={i.link}
-                key={i.label}
-              ></SocialMedia>
+              <SocialMedia value={i.value} href={i.link} key={i.label} />
             )
         )}
       </section>
 
-      <section>
-        <Payment
-          img={Config.Payments[0].img}
-          label={Config.Payments[0].label}
-          id={Config.Payments[0].id}
-          value={Config.Payments[0].value}
-        />
+      <section className="flex flex-col gap-6 mt-6">
+        {Config.Payments.map(
+          (i) =>
+            i.value != "" && (
+              <Payment
+                img={i.img}
+                label={i.label}
+                id={i.id}
+                value={i.value}
+                key={i.label}
+              />
+            )
+        )}
       </section>
     </div>
   );
