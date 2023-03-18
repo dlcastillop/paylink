@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
     "daisyui": "^2.51.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
