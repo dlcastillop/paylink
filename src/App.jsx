@@ -23,7 +23,12 @@ const App = () => {
         {Config.Social.map(
           (i) =>
             i.link != "" && (
-              <SocialMedia value={i.value} href={i.link} key={i.label} />
+              <SocialMedia
+                value={i.value}
+                href={i.link}
+                label={i.label}
+                key={i.label}
+              />
             )
         )}
       </section>

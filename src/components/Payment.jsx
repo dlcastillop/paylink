@@ -24,7 +24,12 @@ const Payment = ({ img, label, value, setQrData }) => {
           data-tip="Copy"
           onClick={(e) => copyEvent(e)}
         >
-          <button className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus">
+          <button
+            className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus"
+            title="Copy"
+            onMouseEnter={(e) => e.currentTarget.removeAttribute("title")}
+            onMouseLeave={(e) => e.currentTarget.setAttribute("title", "Copy")}
+          >
             <i className="bx bx-copy text-lg"></i>
           </button>
         </div>
@@ -33,6 +38,9 @@ const Payment = ({ img, label, value, setQrData }) => {
           htmlFor="modal-qr"
           className="btn btn-sm bg-neutral border-0 text-neutral-content hover:bg-neutral-focus"
           onClick={() => setQrData({ img, label, value })}
+          title="QR"
+          onMouseEnter={(e) => e.currentTarget.removeAttribute("title")}
+          onMouseLeave={(e) => e.currentTarget.setAttribute("title", "QR")}
         >
           <i className="bx bx-qr text-lg"></i>
         </label>
