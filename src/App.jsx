@@ -35,6 +35,7 @@ const App = () => {
   // Set theme
   document.body.setAttribute("data-theme", Config.theme);
 
+  // Set Google Analytics ID
   const script = document.querySelectorAll("script")[2];
   script.setAttribute(
     "src",

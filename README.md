@@ -12,6 +12,7 @@ PayLink is a payment organizer and an open source alternative to Paynest.
 - ✅ Add a hero section with a photo, name and description to introduce yourself or your brand
 - ✅ Include up to 18 links to your social media accounts
 - ✅ Add up to 14 payment methods
+- ✅ Add a Google Analytics ID to track your analytics
 - ✅ The users can copy or generate QRCode for each payment method
 - ✅ The users can use the search bar to look for a specific payment method
 
@@ -388,6 +389,16 @@ The Payment section supports:
 - TRON
 - XRP
 - A card
+
+### Theme
+
+You can add your Google Analytics ID in the `googleAnalyticsId` property.
+
+For example:
+
+```js
+    "googleAnalyticsId": "G-SOMEID"
+```
 
 ## How to deploy
 
