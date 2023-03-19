@@ -3,10 +3,12 @@ import Hero from "./components/Hero";
 import SocialMedia from "./components/SocialMedia";
 import Payment from "./components/Payment";
 import Modal from "./components/Modal";
+import Search from "./components/Search";
 import Config from "./paylink.config.json";
 
 const App = () => {
   const [qrData, setQrData] = useState({ img: "", label: "", value: "" });
+  const [paymentMethods, setPaymentMethods] = useState(Config.Payments);
   const title = "PayLink | Pay or donate to " + Config.properties.name;
 
   // Set title tag
@@ -59,7 +61,12 @@ const App = () => {
       </section>
 
       <section className="flex flex-col gap-6 mt-6">
-        {Config.Payments.map(
+        <Search
+          allMethods={Config.Payments}
+          setPaymentMethods={(val) => setPaymentMethods(val)}
+        />
+
+        {paymentMethods.map(
           (i) =>
             i.value != "" && (
               <Payment
