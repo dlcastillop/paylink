@@ -74,6 +74,7 @@ const App = () => {
                 label={i.label}
                 value={i.value}
                 setQrData={(val) => setQrData(val)}
+                theme={Config.theme}
                 key={i.label}
               />
             )

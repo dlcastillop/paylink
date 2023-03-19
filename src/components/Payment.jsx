@@ -1,6 +1,11 @@
 import copy from "copy-to-clipboard";
 
-const Payment = ({ img, label, value, setQrData }) => {
+const Payment = ({ img, label, value, theme, setQrData }) => {
+  const rh =
+    theme === "swordfest-theme" || theme === "swordfest-dark-theme"
+      ? "h-16 rounded-md"
+      : "h-14 rounded-full";
+
   const copyEvent = (e) => {
     const tooltip = e.currentTarget;
     tooltip.setAttribute("data-tip", "Copied!");
@@ -13,7 +18,12 @@ const Payment = ({ img, label, value, setQrData }) => {
   };
 
   return (
-    <div className="flex justify-between items-center p-4 h-14 sm:mx-0 mx-1 bg-neutral shadow-md rounded-full transition ease-in-out delay-150 sm:hover:scale-105 duration-300">
+    <div
+      className={
+        "flex justify-between items-center p-4 sm:mx-0 mx-1 bg-neutral shadow-md transition ease-in-out delay-150 sm:hover:scale-105 duration-300 " +
+        rh
+      }
+    >
       <img src={img} alt={label + " logo"} className="w-8 h-8" />
       <p className="font-normal text-base text-neutral-content mx-2 flex-grow text-center pl-9">
         {label}
