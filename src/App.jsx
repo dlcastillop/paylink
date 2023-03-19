@@ -36,7 +36,7 @@ const App = () => {
   document.body.setAttribute("data-theme", Config.theme);
 
   return (
-    <div className="max-w-xl mx-auto items-center justify-center">
+    <div className="max-w-xl mx-auto items-center justify-center min-h-screen">
       <Modal qrData={qrData} />
 
       <Hero
