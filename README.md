@@ -397,10 +397,6 @@ The Payment section supports:
 2. Go to the `vite.config.js` and uncomment the `base` parameter. For more info read the comment in `vite.config.js`
 3. After some seconds the deployment will be ready in `https://<username>.github.io/paylink`
 
-## Special thanks
-
-Many thanks to [Manuel Ernesto](https://twitter.com/manuelernestog), [Yoannis Sánchez](https://twitter.com/yossthedev), [Carlos Z. Bent](https://t.me/carloszbent_channel) and [Alex Navarro](https://twitter.com/Swordfest). PayLink is much better thanks to your work.
-
 ## Contributions
 
 If you're interested in contributing to PayLink, please read our [contributing docs](https://github.com/dlcastillop/dlcastillop/blob/main/CONTRIBUTING.md) before submitting a pull request.
@@ -408,3 +404,7 @@ If you're interested in contributing to PayLink, please read our [contributing d
 ## Support
 
 Don't forget to leave a star!
+
+## Special thanks
+
+Many thanks to [Manuel Ernesto](https://twitter.com/manuelernestog), [Yoannis Sánchez](https://twitter.com/yossthedev), [Carlos Z. Bent](https://t.me/carloszbent_channel) and [Alex Navarro](https://twitter.com/Swordfest). PayLink is much better thanks to your work.
