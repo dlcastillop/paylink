@@ -135,5 +135,7 @@
       "value": "",
       "img": "./images/payments/card.svg"
     }
-  ]
+  ],
+
+  "googleAnalyticsId": "G-SOMEID"
 }

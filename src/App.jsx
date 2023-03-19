@@ -35,6 +35,12 @@ const App = () => {
   // Set theme
   document.body.setAttribute("data-theme", Config.theme);
 
+  const script = document.querySelectorAll("script")[2];
+  script.setAttribute(
+    "src",
+    "https://www.googletagmanager.com/gtag/js?id=" + Config.googleAnalyticsId
+  );
+
   return (
     <div className="max-w-xl mx-auto items-center justify-center min-h-screen">
       <Modal qrData={qrData} />
