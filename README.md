@@ -403,4 +403,8 @@ Many thanks to [Manuel Ernesto](https://twitter.com/manuelernestog), [Yoannis SÃ
 
 ## Contributions
 
-Suggestions and pull requests are welcomed!
+If you're interested in contributing to PayLink, please read our [contributing docs](https://github.com/dlcastillop/dlcastillop/blob/main/CONTRIBUTING.md) before submitting a pull request.
+
+## Support
+
+Don't forget to leave a star!
