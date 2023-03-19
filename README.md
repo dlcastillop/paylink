@@ -61,7 +61,9 @@ You can modify the theme in the `theme` property. It accepts 33 values:
 
 For example:
 
+```js
     "theme": "minimalist-dark-theme",
+```
 
 ### Hero section
 
@@ -74,12 +76,14 @@ The Hero section is going to have your photo, name and description. You can modi
 
 For example:
 
+```js
     "properties": {
         "name": "Daniel Castillo",
         "description": "Frontend web developer",
         "alt": "Photo of Daniel Castillo",
         "hero": "./src/images/daniel-castillo.png"
     },
+```
 
 ### Social media section
 
@@ -87,6 +91,7 @@ The Social Media section is going to have all your social media links. You can m
 
 For example:
 
+```js
     "Social": [
     {
     "label": "Email",
@@ -128,11 +133,13 @@ For example:
     { "label": "Product Hunt", "value": "bxl-product-hunt", "link": "" },
     { "label": "Newsletter", "value": "bx-mail-send", "link": "" }
     ],
+```
 
 If you want to modify the order of the social media, you must organize the objects according to your preference.
 
 For example:
 
+```js
     "Social": [
         { "label": "LinkedIn", "value": "bxl-linkedin", "link": "https://linkedin.com/in/dlcastillop" },
         { "label": "Twitter", "value": "bxl-twitter", "link": "https://twitter.com/dlcastillop" },
@@ -154,8 +161,28 @@ For example:
         { "label": "Product Hunt", "value": "bxl-product-hunt", "link": "" },
         { "label": "Newsletter", "value": "bx-mail-send", "link": "" }
     ],
+```
 
-The Social Media section supports Twitter, GitHub, LinkedIn, Instagram, a link, Discord, Facebook, Medium, Pinterest, Snapchat, Telegram, TikTok, Twitch, Vimeo, WhatsApp, YouTube, Product Hunt and a newsletter.
+The Social Media section supports:
+
+- Twitter
+- GitHub
+- LinkedIn
+- Instagram
+- A link
+- Discord
+- Facebook
+- Medium
+- Pinterest
+- Snapchat
+- Telegram
+- TikTok
+- Twitch
+- Vimeo
+- WhatsApp
+- YouTube
+- Product Hunt
+- A newsletter
 
 ### Payment section
 
@@ -163,6 +190,7 @@ The Payment section is going to have all your payment methods. You can modify it
 
 For example:
 
+```js
     "Payments": [
         {
             "id": "btc",
@@ -249,11 +277,13 @@ For example:
             "img": "./images/payments/card.svg"
         }
     ]
+```
 
 If you want to modify the order of the payment methods, you must organize the objects according to your preference.
 
 For example:
 
+```js
     "Payments": [
         {
             "id": "qvapay",
@@ -340,8 +370,24 @@ For example:
             "img": "./images/payments/card.svg"
         }
     ]
+```
 
-The Payment section supports Bitcoin, Binance USD, Matic, DogeCoin, Ethereum, Litecoin, PayPal, USDT, QvaPay, Solana, ADA, TRON, XRP and a card.
+The Payment section supports:
+
+- Bitcoin
+- Binance USD
+- Matic
+- DogeCoin
+- Ethereum
+- Litecoin
+- PayPal
+- USDT
+- QvaPay
+- Solana
+- ADA
+- TRON
+- XRP
+- A card
 
 ## How to deploy
 
