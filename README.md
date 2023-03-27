@@ -390,7 +390,7 @@ The Payment section supports:
 - XRP
 - A card
 
-### Theme
+### Google Analytics
 
 You can add your Google Analytics ID in the `googleAnalyticsId` property.
 
